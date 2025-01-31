@@ -1,0 +1,27 @@
+.sidebar {
+  width: 240px; /* Ancho del Sidebar */
+  background-color: #f4f4f4;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  color: black; /* Change the text color to black */
+}
+
+.mat-list-item {
+  color: black; /* Ensure the text of each list item is black */
+  
+  mat-icon {
+    color: black; /* Ensure the icon color is black */
+  }
+  
+  &:hover {
+    background-color: #e0e0e0; /* Light hover effect */
+  }
+
+  &.active {
+    background-color: #00796b; /* Dark green for active item */
+    color: white; /* White text color when active */
+    
+    mat-icon {
+      color: white; /* Change icon color when active */
+    }
+  }
+}

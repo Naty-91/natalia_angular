@@ -1,0 +1,88 @@
+/* Estilos principales */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Imagen */
+  .search-container img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 20px;  /* Espacio entre la imagen y los elementos siguientes */
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input de búsqueda */
+  .search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+  
+    &:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+  }
+  
+  /* Select de categorías */
+  .select-container {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 15px;
+  
+    select {
+      width: 100%;
+      padding: 10px 15px;
+      font-size: 16px;
+      border: 2px solid #ddd;
+      border-radius: 4px;
+      background-color: white;
+      transition: border-color 0.3s ease;
+      
+      &:focus {
+        border-color: #007bff;
+        outline: none;
+      }
+    }
+  }
+  
+  /* Botón de búsqueda */
+  .search-button {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+  
+  /* Espaciado */
+  .mt-3 {
+    margin-top: 20px;
+  }
+  .mb-3 {
+    margin-bottom: 20px;
+  }
+  

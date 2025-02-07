@@ -1,1 +1,27 @@
-<p>buscador works!</p>
+<!-- buscador.component.html -->
+<div class="search-container">
+   
+
+    
+
+    <!-- Select de Categorías -->
+    <select id="categorySelect" class="form-select mt-3">
+        <option selected disabled>Selecciona una categoría</option>
+        <option value="frutas">Frutas</option>
+        <option value="lacteos">Lácteos</option>
+        <option value="cereales">Cereales</option>
+        <option value="panaderia">Panadería</option>
+        <option value="bebidas">Bebidas</option>
+        <option value="conservas">Conservas</option>
+        <option value="carnes">Carnes</option>
+    </select>
+
+    <br>
+ <!-- Imagen -->
+ <img src="./assets/images/eZpuVVpc-supermercados.jpg" alt="Supermercados">
+
+ <!-- Buscador -->
+ <input type="text" class="search-input" placeholder="Busca lo que quieras..." aria-label="Buscar">
+    <!-- Botón de búsqueda -->
+    <button class="search-button mt-3" (click)="search()">Buscar</button>
+</div>

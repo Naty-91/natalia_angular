@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { FooterComponent } from './layout/layout/footer/footer.component';
-import { HeaderComponent } from './layout//layout/header/header.component';
-import { SidebarComponent } from './layout/layout/sidebar/sidebar.component';
-import { MainComponent } from './layout/layout/main/main.component';
+import { FooterComponent } from './layout/footer/footer.component';
+import { HeaderComponent } from './layout//header/header.component';
+import { SidebarComponent } from './layout/sidebar/sidebar.component';
+
 
 import { MatSidenav, MatSidenavContainer, MatSidenavContent } from '@angular/material/sidenav';
 
@@ -15,7 +15,7 @@ import { MatSidenav, MatSidenavContainer, MatSidenavContent } from '@angular/mat
     MatSlideToggleModule,
     FooterComponent,
     HeaderComponent,
-    MainComponent,
+    
     SidebarComponent,
     MatSidenavContainer,
     MatSidenavContent,

@@ -1,0 +1,6 @@
+.card-img-top {
+    width: 100%; /* Hace que todas las imágenes ocupen el ancho del contenedor */
+    height: 200px; /* Ajusta la altura fija */
+    object-fit: cover; /* Recorta la imagen para que encaje sin deformarse */
+    border-radius: 10px; /* Opcional: Bordes redondeados */
+}
